@@ -4,7 +4,7 @@
  *		to lure real ducks. A DecoyDuck should not be able to
  *		fly, or quack.
  *		It can only float, which could be thought of as
- *			a kind of "swim" behaviour (well, kind of)?.
+ *		a kind of "swim" behaviour (well, kind of)?.
  */
 class DecoyDuck extends Duck {
 

@@ -1,5 +1,5 @@
 /*
- * This example attempts to show the issue with
+ *  This example attempts to show the issue with
  *	the solution to override subclass methods to do
  *	nothing.
  *  Run the code and study the output carefully.
@@ -13,8 +13,8 @@ class Runner {
                 new MallardDuck()
                 , new RedHeadDuck()
                 , new RubberDuck()
-                //, new DecoyDuck()		//ADD a DecoyDuck to see
-        };						// the problem worsen
+                , new DecoyDuck()		// ADD a DecoyDuck to see
+        };						        // the problem worsen
         System.out.println();
 
         demonstrateDucks(ducks);
@@ -31,7 +31,7 @@ class Runner {
             System.out.print("\t, and flys off: ");
             d.fly();
 
-            System.out.println();
+            System.out.println("\n");
         }
     }
 }
